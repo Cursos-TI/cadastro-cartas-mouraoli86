@@ -5,6 +5,9 @@
 // Objetivo: No nível novato você deve criar as cartas representando as cidades utilizando scanf para entrada de dados e printf para exibir as informações.
 
 int main() {
+
+  printf("Desafio Super Trunfo Países!\n");
+  
   // Área para definição das variáveis para armazenar as propriedades das cidades
 
   // Área para entrada de dados
@@ -13,3 +16,4 @@ int main() {
 
 return 0;
 } 
+
