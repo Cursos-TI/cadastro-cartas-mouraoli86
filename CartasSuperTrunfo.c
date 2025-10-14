@@ -13,6 +13,8 @@ int main() {
  nome_da_cidade 'Fortaleza'
  populacao int 2.000.000;
  area_em_km² float 10.000.00;
+ PIB float 6.33;
+ numero_de_pntos_turisticos int 23;
 
 
   // Área para entrada de dados
