@@ -6,9 +6,14 @@
 
 int main() {
 
-  printf("Desafio Super Trunfo Países!\n");
-  
-  // Área para definição das variáveis para armazenar as propriedades das cidades
+  printf("Desafio Super Trunfo - Países.\n");
+ // Área para definição das variáveis para armazenar as propriedades das cidades
+ Estado char 'Ceará'
+ codigo_da_carta char 'A01'
+ nome_da_cidade 'Fortaleza'
+ populacao int 2000.000;
+ area_em_km² float 10.000.00;
+
 
   // Área para entrada de dados
 
