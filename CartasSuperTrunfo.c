@@ -11,7 +11,7 @@ int main() {
  Estado char 'Ceará'
  codigo_da_carta char 'A01'
  nome_da_cidade 'Fortaleza'
- populacao int 2000.000;
+ populacao int 2.000.000;
  area_em_km² float 10.000.00;
 
 
