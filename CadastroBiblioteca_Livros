@@ -1,0 +1,61 @@
+// PRÁTICA: SISTEMA DE BIBLIOTECA PART 1
+//OBJETIVO: implementar o cadastro e a listagem de livros usando array estático. 
+//** foco em STRUCKS, ENTRADA E SAÍDA DE DADOS E ORGANIZAÇÃO BÁSICA. */
+
+//
+//
+//
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h> //Para strcspn()
+
+//---contantes globais ---
+#define MAX_LIVROS 50
+#define TAM_STRING 100
+
+//--- DEFINIÇÃO DE ESTRUTURA (STRUCT)---
+struct Livro {
+
+    char name [TAM_STRING];
+    char autor [TAM_STRING];
+    char editor [TAM_STRING];
+    int edição;
+
+};
+//---FUNÇÃO PARA LIMPAR BUFFER DE ENTRADA ---
+void limparBufferEntrada () {
+
+    int c;
+    while ((c= getchar())!='n'&& c != EOF);
+
+}
+
+//--- FUNÇÃO PRINCIPAL (main) ---
+
+int main () {
+
+    struct Livro bibliotecs [MAX_LIVROS];
+    int totalLivros = 0
+    int opcao;
+
+    //---LAÇO PRINCIPAL DO MENU ---
+
+    do {
+// EXIBE O MENI DE OPÇÕES ---
+printf("======================\n");
+printf("BIBLIOTECA - PART 1\n");
+printf("======================\n");
+printf("1 - Cadastrar novo livro\n");
+printf("2 - Listar todos os livros\n");
+printf("0 - Sair\n");
+printf("-----------------------\n");
+print("Escolha uma opcao: ");
+
+//LÊ A OPÇÃO DO USUÁRIO.
+
+scanf("%d,&opcao");
+limparBufferEntrada (); //Limpa o '\n'deixado pelo scanf.
+
+ //---PROCESSAMENTO DA OPÇÃO ---
+
+ smitch (opcao) {
